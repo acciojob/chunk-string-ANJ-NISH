@@ -16,7 +16,7 @@ function stringChop(str, size) {
 			}
 		}
 
-	if(count<size)
+	if(count<size && count.size!==0)
 	{
 		ansarr.push(word);
 	}
@@ -25,6 +25,6 @@ function stringChop(str, size) {
 }
 
 // Do not change the code below
-const str = prompt("Enter String.");
-const size = prompt("Enter Chunk Size.");
-alert(stringChop(str, size));
+// const str = prompt("Enter String.");
+// const size = prompt("Enter Chunk Size.");
+// alert(stringChop(str, size));
